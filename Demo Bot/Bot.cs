@@ -10,18 +10,11 @@ using System.Threading.Tasks;
 //Resources 9 and 10 are used for the task of creating the progress bar... nothing else.
 using System.Drawing;
 using System.Windows.Forms;
-using Sage.Platform.Configuration;
-using Sage.Platform.Data;
 using Sage.SData.Client.Atom;
 using Sage.SData.Client.Core;
 using Sage.SData.Client.Extensions;
 using Sage.SData.Client.Framework;
 using Sage.SData.Client.Metadata;
-using Sage.SalesLogix;
-using Sage.SalesLogix.Services;
-using Sage.SalesLogix.Web.SData;
-using ApplicationConetxt = Sage.Platform.Application.ApplicationContext;
-// Allows for communication with Google documents (ie. Google Spreadsheets)
 using Google.GData.Client;
 using Google.GData.Spreadsheets;
 // Allows for communication with Excel
